@@ -1,14 +1,17 @@
-# Instalação pygame
+# Projeto Apple Collector
+-> Foi utilizado a biblioteca PGZero para a criação deste jogo
 
-``pip install pygame``
+## Abaixo são informações importantes
 
+# Para criar o .EXE
+-> Utilizar o arquivo ``apple_collector.spec``
+-> Usar o comando ``pyinstaller apple_collector.spec``
 
 # Criação do ambiente virtual venv:
 
 ``virtualenv venv`` (ou .venv para deixar a venv oculta)
 ``venv\Scripts\activate`` (ativar)
 ``deactivate`` (desativar)
-
 
 # Utilizar o .gitignore
 Utilizar o .gitignore para ignorar os arquivos sensíveis do projeto
@@ -25,10 +28,3 @@ Utilizar o .gitignore para ignorar os arquivos sensíveis do projeto
 # Instalar dependências utilizando o requirements.txt
 
 ``pip install requirements.txt``
-
-
-# Usando o pygame
-
-``pygame.init()``
-utilizar eventos -> https://pygame.org/docs/ref/event.html
-

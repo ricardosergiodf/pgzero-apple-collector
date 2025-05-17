@@ -1,6 +1,5 @@
 import pgzrun
 import random
-import math
 from pygame import Rect
 
 # Constantes
